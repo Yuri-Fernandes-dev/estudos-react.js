@@ -1,4 +1,20 @@
 import React from 'react'
-import  ReactDom from 'react-dom'
+import  ReactDOM from 'react-dom'
+import { BoaNoite, BoaTarde } from './componentes/Multiplo';
 
-ReactDom.render(<h1>React</h1>, document.getElementById('root'))
+
+
+ReactDOM.render( 
+
+     <div>
+        <BoaTarde  nome ="Yurid"/>
+        <BoaNoite nome="Ana Clara" />
+
+     </div>
+
+
+      ,document.getElementById('root'))
+
+
+
+      
